@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestill</title>
+    <link rel="stylesheet" href="stilark.css">
+    <link rel="stylesheet" href="styling_tabell.css">
+    <link rel="stylesheet" href="styling_skjema.css">
+</head>
+<body>
+<!--Dette er hjem-knappen min!-->
+    <a href="index.html" class="overskrifter"><h1 class="h1_2">Knitwear by Sofia</h1></a>
+    <ul class="meny">
+        <li><a href="Bestilling.html" target="_blank">Bestill</a></li>
+        <li><a href="Kontakt_meg.html" target="_blank">Kontakt meg!</a></li>
+        <li><a href="https://www.startsiden.no/guider/hvordan-laere-a-strikke-pa-1-2-3" target="_blank">Lær deg å strikke!</a></li>
+    </ul>
+    <h1 class="h1_3">Bestilling</h1>
+    <p>Her kan du legge inn en bestilling på noen av produktene på hovedsiden, eller legge inn en egen bestilling på noe du ønsker deg! Send gjerne en oppskrift på det du ønsker, eller legg inn en beskrivelse av plagget.</p>
+
+    <form action="https://formsubmit.co/sofilofiolsen@gmail.com" method="POST" class="bestilling">
+        <input type="hidden" name="_next" value="https://innleveringhost22.sofiaaolsen.repl.co/registrer.html">
+
+        <div>
+        <label for="navn">Navn:</label>
+        <input type="text" name="navn" placeholder="Anna Olsen" required>
+        </div>
+
+        <div>
+        <label for="telefonnummer">Telefonnummer:</label>
+        <input type="number" name="telefonnummer" placeholder="123 12 123" required>
+        </div>
+
+        <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        
+        <div>
+        <label for="velgprodukt">Produkt:</label>
+        <select name="velgprodukt" id="" required>
+            <option value="">Velg produkt</option>
+            <option value="CumulusBluse">Cumulus Bluse</option>
+            <option value="Raglangenser">Raglangenser</option>
+            <option value="Sofiasvest">Sofiasvest</option>
+            <option value="MinFlettevest">Min Flettevest</option>
+            <option value="CollageDays">Collage Days</option>
+            <option value="SofiasFlettevest">Sofias Flettevest</option>
+            <option value="FabulousFarrah">Fabulous Farrah</option>
+            <option value="PannebåndMedFlette">Pannebånd med flette</option>
+            <option value="WinterSmilesHat">Winter Smiles Hat</option>
+            <option value="Lue">Lue</option>
+        </select>
+        </div>
+
+        <div>
+        <label for="velgstørrelse">Størrelse:</label>
+        <select name="velgstørrelse" id="" required>
+            <option value="">Velg størrelse</option>
+            <option value="XXS">XXS</option>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+        </select>
+        </div>
+
+        <div>
+        <label for="velgfarge">Farge:</label>
+        <select name="velgfarge" id="" required>
+            <option value="">Velg farge</option>
+            <option value="Rød">Rød</option>
+            <option value="Oransje">Oransje</option>
+            <option value="Gul">Gul</option>
+            <option value="Grønn">Grønn</option>
+            <option value="Blå">Blå</option>
+            <option value="Lilla">Lilla</option>
+            <option value="Rosa">Rosa</option>
+            <option value="Brun">Brun</option>
+            <option value="Svart">Svart</option>
+            <option value="Grå">Grå</option>
+            <option value="Hvit">Hvit</option>
+        </select>
+        </div>
+
+        <div>
+        <label for="kommentar">Kommentar:</label>
+        <br>
+        <textarea class="kommentar" wrap="soft" name="kommentar"></textarea>
+        </div>
+
+        <div>
+        <button type="submit">Bestill!</button>
+        </div>
+    </form>
+</body>

@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(252, 242, 244);
+}
+.overskrifter {
+    text-decoration: none;
+}
+.h1_hovedside {
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(249, 205, 212);
+    padding: 20px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0px 2px 5px pink;
+}
+.h1_2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    color: pink;
+    text-shadow: 0px 2px 5px white;
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+.h1_3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    color: pink;
+    text-shadow: 0px 2px 5px white;
+}
+p {
+    text-align: center;
+}
+.meny {
+    display: block;
+    text-align: center;
+    border: 5px dotted white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.meny a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.meny li {
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 8px;
+}
+.meny li::after {
+    content: "";
+    width: 0%;
+    height: 5px;
+    background:rgb(249, 205, 212);
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+}
+.meny li:hover::after {
+    width: 100%
+}
+.bilder_hovedside img {
+    justify-content: space-between;
+    width: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.bilder_hovedside img:hover {
+    box-shadow: 0px 0px 12px pink;
+}
+.bilder_hovedside {
+    margin: 5px auto;
+}
+.produktinfo {
+    margin: 10px auto;
+}
+.produktinfo img {
+    justify-content: space-between;
+    width: 500px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.produktinfo p {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+.produktinfo h2 {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color:pink;
+}
+

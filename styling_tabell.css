@@ -1,0 +1,27 @@
+
+.pris_tabell {
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    font-size: 18px;
+    margin: 30px auto;
+}
+
+.pris_tabell td {
+    border: 2px solid pink;
+    padding: 8px;
+}
+.pris_tabell th {
+    border: 2px solid pink;
+    padding: 8px;
+}
+.pris_tabell thead {
+    background-color: rgb(249, 205, 212);
+}
+
+.pris_tabell tbody tr {
+    background-color: white;
+}
+
+.pris_tabell tbody tr:nth-child(odd) {
+    background-color: rgb(233, 230, 230);
+}

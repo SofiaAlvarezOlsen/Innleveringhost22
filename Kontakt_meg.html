@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt meg</title>
+    <link rel="stylesheet" href="stilark.css">
+    <link rel="stylesheet" href="styling_tabell.css">
+    <link rel="stylesheet" href="styling_skjema.css">
+</head>
+<body>
+<!--Dette er hjem-knappen min!-->
+    <a href="index.html" class="overskrifter"><h1 class="h1_2">Knitwear by Sofia</h1></a>
+    <ul class="meny">
+        <li><a href="Bestilling.html" target="_blank">Bestill</a></li>
+        <li><a href="Kontakt_meg.html" target="_blank">Kontakt meg!</a></li>
+        <li><a href="https://www.startsiden.no/guider/hvordan-laere-a-strikke-pa-1-2-3" target="_blank">Lær deg å strikke!</a></li>
+    </ul>
+    <h1 class="h1_3">Bestilling</h1>
+    <p>Hei! Har du noen spørsmål? Ta kontakt her, eller send meg en mail. Gmail: sofilofiolsen@gmail.com</p>
+    <form action="https://formsubmit.co/sofilofiolsen@gmail.com" method="POST" class="bestilling">
+        <input type="hidden" name="_next" value="https://innleveringhost22.sofiaaolsen.repl.co/registrer.html">
+
+        <label for="navn">Navn:</label>
+        <input type="text" name="navn" placeholder="Anna Olsen" required>
+
+        <br><br>
+
+        <label for="telefonnummer">Telefonnummer:</label>
+        <input type="number" name="telefonnummer" placeholder="123 12 123" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Email Address" required>
+
+        <br><br>
+
+        <label for="kommentar">Kommentar:</label>
+        <br>
+        <textarea class="kommentar" wrap="soft" name="kommentar"></textarea>
+
+        <br><br>
+
+        <button type="submit">Send melding</button>
+    </form>
+</body>
